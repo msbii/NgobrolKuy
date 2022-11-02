@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class SplashActivity extends AppCompatActivity {
+public class LupaPasswordActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_lupa_password);
     }
 
-    public void handleclik(View view) {
-        Intent clik = new Intent(this, LoginActivity.class);
-        startActivity(clik);
+    public void handleSubmit(View view) {
+        Intent intent = new Intent(this, LupaPasswordResultActivity.class);
+        startActivity(intent);
     }
 }

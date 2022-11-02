@@ -50,6 +50,7 @@
             android:backgroundTint="@color/white">
 
             <TextView
+                android:id="@+id/text_user"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -77,6 +78,7 @@
             android:backgroundTint="@color/white">
 
             <TextView
+                android:id="@+id/text_email"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -104,6 +106,7 @@
             android:backgroundTint="@color/white">
 
             <TextView
+                android:id="@+id/text_pass"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -131,6 +134,7 @@
             android:backgroundTint="@color/white">
 
             <TextView
+                android:id="@+id/text_confirm"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -153,6 +157,7 @@
         android:layout_marginTop="32dp">
 
         <TextView
+            android:id="@+id/btn_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="REGISTER"
@@ -177,6 +182,7 @@
         android:textColor="@color/white"
         android:layout_margin="32dp"
         android:background="@drawable/rounded_outline"
+        android:onClick="handlelogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

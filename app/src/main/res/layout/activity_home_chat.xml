@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    tools:context=".HomeChatActivity">
+
+    <LinearLayout
+        android:id="@+id/ngobrolKuyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="-180dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngobrol"
+            android:textSize="16pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Kuy"
+            android:textSize="16pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/pink"/>
+extSize="25"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/chatList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/ngobrolKuyTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/profilePic"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/profile_placeholder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="18.32"
+                android:textColor="@color/white"
+                android:textSize="7pt"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="120dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/chatList1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/chatList"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/profilePic"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/profile_placeholder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="18.32"
+                android:textColor="@color/white"
+                android:textSize="7pt"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="120dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/chatList1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/chatList"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/profilePic"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/profile_placeholder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="18.32"
+                android:textColor="@color/white"
+                android:textSize="7pt"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="120dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/chatList2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/chatList1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/profilePic"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/profile_placeholder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="18.32"
+                android:textColor="@color/white"
+                android:textSize="7pt"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="120dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/chatList3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/chatList2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/profilePic"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/profile_placeholder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="18.32"
+                android:textColor="@color/white"
+                android:textSize="7pt"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="120dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/chatList4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/chatList3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/profilePic"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/profile_placeholder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:text="18.32"
+                android:textColor="@color/white"
+                android:textSize="7pt"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="120dp"/>
+
+        </LinearLayout><LinearLayout
+        android:id="@+id/chatList5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/chatList4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile_placeholder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:text="18.32"
+            android:textColor="@color/white"
+            android:textSize="7pt"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="120dp"/>
+
+    </LinearLayout><LinearLayout
+        android:id="@+id/chatList6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/chatList5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile_placeholder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:text="18.32"
+            android:textColor="@color/white"
+            android:textSize="7pt"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="120dp"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
